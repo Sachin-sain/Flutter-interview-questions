@@ -1,0 +1,349 @@
+					1.Flutter interview Questions(https://www.interviewbit.com/flutter-interview-questions/)
+1. What is Flutter.=>
+2. Write the advantages of using flutter.=>
+3. Explain the flutter architecture.=>
+4. List some important features of flutter.=>
+5. Write the limitations of flutter.=>
+6. What are different build modes in flutter?=>
+7. Explain the flutter widget and write its importance.=>
+8. What are the types of widgets present in flutter?=>
+9. What do you mean by Dart? Write its importance.=>
+10.Explain App state.=>(App State may also be referred to as a shared state or application state)	
+11.Write the difference between runApp() and main() in flutter.=>( Using runApp(), you are able to return the widgets that are connected to the screen as a root of the widget tree)
+12.Explain packages( components written in the dart programming language.  ) and plugins(native code) in Flutter.=>	
+13.Name some best editors for flutter development.=>
+14.Name some apps that mostly use flutter.=>
+15.What do you mean by keys in flutter? When one should use it.=>
+16.Explain Container class in a flutter.=>
+17.Which one is better, either flutter or react native?=>
+18.When to use mainAxisAlignment(horiziontal ) and crossAxisAlignment(vertical).=>
+19.Is Flutter Open Source or not?=>
+20.Why does a flutter app usually take a long developing time?=>(reason apk. file)
+21.Explain Flutter Inspector.=>(show the widget tree)
+22.What is the use of Ticker in Flutter?=>(We can think of Ticker as a special periodic timer that we can use to be notified when the Flutter engine is about to draw a new frame. To create a ticker, we need to add a SingleTickerProviderStateMixin to our State subclass.)
+23.How would you execute code only in debug mode?=>
+24.What is the use of Mixins?(Multiple inheritances are not supported by Dart. Thus, we need mixins to implement multiple inheritances in Flutter/Dart.)
+25.Write difference between Hot reload and Hot restart.=>
+26.Explain BuildContext.=>(BuildContexts are used to identify or locate widgets in widget trees.)
+27.Explain pubspec.yaml file.=>
+28.What do you understand about tween animation?=>(The start and endpoints of an animation must be specified in tween animation.)
+29.How can we create HTTP requests in Flutter?=>((To create HTTP requests, use the HTTP package (import 'package:http/http.dart' as http;). In the following manner, we can make the Requests:
+
+http.get(‘https://jsonplaceholder.typicode.com/albums/1‘); 
+
+))
+30.Name two database packages mostly used in Flutter.=>
+31.What is await in Flutter? Write it's usage.=>(Until the async method is finished, await interrupts the process flow. Await generally means: Wait here until this function is finished )
+32.Write the difference between SizedBox Vs Container.=>
+
+			2.Flutter interview Questions(https://www.javatpoint.com/flutter-interview-questions)
+1. What is Dart?=>
+2. Should I learn Dart for Flutter?=>
+3. Is Flutter Free?=>
+4. What are the Flutter widgets?=>
+5. Which type of animation allows you to represent real-world behavior?(physics based animation)
+6. What is the difference between "main()" and "runApp()" functions in Flutter?
+7. Explain the difference between "??" and "?" Operators.=>(sachin)//
+8. How many child widgets can be added to Container Widget?=>(multiple child widget and single widget)
+9. Explain async, await in Flutter/Dart?==>
+10.what are the use of navigation.push & navigation.context?
+11.What is the use of form state?=>
+12.What are the use of arrow operator or fat arrow?=>
+13.What is use of key?=>
+14.What is the use of Safearea in flutter?=>
+15.What are the different types of gridview in flutter?(GridView.count GridView.builder GridView.custom GridView.extent.)
+16.What is scop model/bloc pattern in flutter?
+17.What is inspector?=>
+18.What are the types of listview?=>(ListView.AnimatedListView.ListWheelScrollview.Reorderable list view.)
+19.What is stream in flutter & its types?=>
+20.Why is the build method on state and not statefulwidget?
+21.Why do we need mixins?=>
+22.What are types of testing used in flutter?=>
+23.How to acces screen size in flutter?=>(double width = MediaQuery. of(context). size. width ;double height = MediaQuery. of(context). size. height;)
+24.What is provider & how it is work?
+25.Explained how many types of modes used in flutter?=>
+26.OOPs concepts.=>
+27.Dart basic questions.=>
+28.Fat arrow.=>
+29.BLOC in flutter?=>
+30.Diff bw === and ==.(sachin)//
+31.wrap widget?=>(if not adjust move in the next line)
+32.expanded widget.?=>(adjust the content)
+33.Grid in flutter?=>
+34.Diff bw static and dyamic.=>
+
+
+					(3)
+
+1.column.=>(column is contain the multiple child widget and it is show the data vertically)=>
+2.row.=>(row is contain the multiple child widget and it is show the data horiziontally)=>
+3.Diff b/w ontap, onsubmitted and opressed?=>(Currently they both are same. Just use onPressed with Buttons and onTap with other widgets and onsubmited are mainly used for the form.)
+4.void init state and super.initstate?=>
+5.global key?=>
+6.Life cycle of flutter app?=>(https://www.google.com/imgres?imgurl=https%3A%2F%2Fmobikul.com%2Fwp-content%2Fuploads%2F2020%2F12%2F000129.png&imgrefurl=https%3A%2F%2Fmobikul.com%2Flifecycle-of-a-flutter-app%2F&tbnid=p8tYyNFOCiAlbM&vet=12ahUKEwi5y6K_yvL5AhUroNgFHRSqCm0QMygBegUIARDBAQ..i&docid=oGoI1zl75_93OM&w=1228&h=712&q=flutter%20life%20cycle&hl=en&ved=2ahUKEwi5y6K_yvL5AhUroNgFHRSqCm0QMygBegUIARDBAQ)
+7.What is flex in flutter?=>(flex is the combination of both column and row and it is also used in flex direction property)
+8.what is flutter sdk?=>
+9.How to deployed our flutter app in play store?//(https://dhruvnakum.xyz/how-to-publish-flutter-app-on-play-store)
+10.Cammand in flutter?=>(flutter doctor , flutter run, flutter build, flutter analyze )
+11.Version of flutter?=>(Flutter version=2.10.1 release date=02/09/2022)
+
+					
+
+					     (4)						
+Note:-Link of all question answer(https://github.com/power19942/flutter-interview-questions)
+1.Explain the Stateful Widget Lifecycle?=>
+
+Ans:-The lifecycle has the following simplified steps:
+ createState() mounted == true initState() didChangeDependencies() build() didUpdateWidget() setState() deactivate() dispose() mounted == false
+life cycle
+
+2.What is Flutter tree shaking (flutter web)?=>
+
+Ans:-When compiling a Flutter web application, the JavaScript bundle is generated by the dart2js compiler.
+ Tree shaking is the process of eliminating dead code, by only including code that is guaranteed to be executed.
+  
+3.What is a Spacer widget?=>
+
+Ans:-Spacer manages the empty space between the widgets with flex container. 
+Evenly with the Row and Column MainAxis alignment we can manage the space as well.
+
+4.What is an InheritedWidget?=>(inherted widget means only  create one widget and it used in other class)
+
+https://www.youtube.com/watch?v=Zbm3hjPjQMk
+
+5.Why is the build() method on State and not StatefulWidget?//
+
+
+6.What is a Navigator and what are Routes in Flutter?=>
+
+Navigation and routing are some of the core concepts of all mobile application, which allows the user to move between different pages.
+ We know that every mobile application contains several screens for displaying different types of information.
+ For example, an app can have a screen that contains various products.
+ When the user taps on that product, immediately it will display detailed information about that product
+
+7.What is a PageRoute?=>(same as 6)
+
+Allow us to add animation transaction to the route https://github.com/divyanshub024/Flutter-route-transition
+
+8.Explain async, await and Future?=>
+
+9.how can you update a listview dynamically?=>
+
+Ans:-By using setState to update the listview.
+
+10.What is a Stream?=>
+
+Ans:-A stream is like a pipe, you put a value on the one end and if there’s a listener on the other end that listener will receive that value.
+ A Stream can have multiple listeners and all of those listeners will receive the same value when it’s put in the pipeline. 
+The way you put values on a stream is by using a StreamController.
+
+11.What are GlobalKeys?=>
+
+Ans:- They allow widgets to change parents anywhere in your app without losing state,.
+ An example of the first scenario might if you wanted to show the same widget on two different screens, but holding all the same state, you’d want to use a GlobalKey.
+
+12.When can you use double.INFINITY?=>(ydi hmare pas parent widget ka size bda h to hum double.infinity ka use karke usme another widget ko add kar sakte h)
+
+Ans:-When you want the widget to be big as the parent widget allow.
+
+13.What is Ticker, Tween and AnimationController?=>(A controller for an animation.)
+
+14.What is an AspectRatio widget used for?=>(The aspect ratio is set to 2 : 1, which means the width should be twice as large as the height. )
+(iska matlab yh h ki ydi hum koi widget like container ya img le to AR uski width 3px and heigth 1px karega. )
+
+
+15.How would you access StatefulWidget properties from its State?=>
+
+Ans:-Using the widget property.
+
+16.List the Visibility widgets in flutter and the differences?=>
+
+(a) Visibility(it use for content hide/show)
+(b) Opacity
+(c)Offstage(it use for content hide/show)
+
+17.Can we use Color and Decoration property simultaneously in the Container?=>
+
+Ans:-No
+
+18.What is the difference between as,show and hide in an import statement?=>
+Ans:-import show : This is used to import part of the library, show only import one name of the library.
+ import hide : This is another one which is the opposite of the show , hide import all names except the name specified in the hide .
+
+19.Difference between a Single Instance and Scoped Instance(//) ?=>(class ke andar hum jin variable ko declare karte h use hum instance variable khte h or function ko instance method khte h)
+
+20.Why does the first flutter app take a very long developing time?=>
+
+Ans:-Because Flutter builds a device-specific IPA or APK file. In this process, the Xcode and Gradle are used to build a file, which usually takes a long time
+
+21.How to convert a List into a Map in Dart?=>(https://www.bezkoder.com/dart-convert-list-map/)
+
+22.Why is exit(0) not preferred for closing an app?=>
+Ans:-(exit(0) : This command also works but it is not recommended because it terminates the
+ Dart VM process immediately and users may think that the app got crashed.)
+
+24.why is flutter used of dart?=>
+Ans:-Dart has a declarative and programmable layout that is easy to read and visualize.
+
+25.What is the difference between final and const in Flutter?=>(https://www.youtube.com/watch?v=75ytmgbDUfo&t=11s)
+Ans:-The only difference between final and const is that the const makes the variable constant from compile-time only.
+26.What is state?=>
+27.What is the used of stack in flutter?=>(it is used the one widget overlep to themultiple widget)(https://www.google.com/imgres?imgurl=https%3A%2F%2Fmiro.medium.com%2Fmax%2F1400%2F1*ImKaylD6Xd_1gKWbkZHsxg.png&imgrefurl=https%3A%2F%2Fmedium.flutterdevs.com%2Fstack-and-positioned-widget-in-flutter-3d1a7b30b09a&tbnid=tjVm0B5w8ys8vM&vet=12ahUKEwjanZqI6fX5AhUGjNgFHRiECLEQMygDegUIARDFAQ..i&docid=xStW_bocXr52dM&w=863&h=1000&q=what%20is%20stack%20in%20flutter&ved=2ahUKEwjanZqI6fX5AhUGjNgFHRiECLEQMygDegUIARDFAQ)
+28.How many types of inheritace?=>(4 types:- Single inheritace, multiple inheritance, Multi-Level Inheritance,  Hierarchical Inheritance)	
+29.Flutter is support multiple inheritance or not?=>
+30.What is parent class/super class/base class and child class/ sub class/ derived class?=>
+31.What is tween?=>(Tween gives us intermediate values between two values like colors)=>
+32.What is Media Query in flutter?=>(By the help of media query we are change the height and width of our widget)
+
+
+					(5)
+Note:-Link of all question(https://github.com/power19942/flutter-interview-questions):-
+
+1.Why Flutter? over other platforms?=>(flutter is over the platform because it is used for both ios and androaid as well as web, desktop )
+2.Why Flutter doesn’t have other files like XML, styles, etc…?=>( It gives me an error about adding my styles to the project, but it still doesn't read them. 
+Here is the error I'm getting... AAPT: error: ...)
+
+3.Explain the Stateful Widget Lifecycle?=>
+4.How Flutter Lifecycle(note m h) different from the Android/iOS life cycle?=>(andriad LS= onCreate, onStart, onResume,onPause, onStop, forever alone onRestart,ondestroy)
+(ios LS=viewDidLoadview,WillAppear,viewDidAppear,viewWillDisappear,viewDidDisappear,viewDidUnload)
+
+5.How build() method works? How it rebuild itself?=>(build method call the setstate /build() method rebuilds all the descendant widgets)
+6.What is a Navigator and what are Routes in Flutter?=>=>
+7.What are the trees available in Flutter?=>(Widget Tree, Element Tree,  RenderObject trees)
+8.What is the ephemeral state? and Differentiate between ephemeral state and app state?=>(Ephemeral state can be implemented using State and setState() )
+9.When do we use the WidgetsBindingObserver?=>(WidgetsBindingObserver should be used when we want to listen to the AppLifecycleState and call stop/start on our services.)
+10.Difference between SchedulerBinding( This is also similar to WidgetBinding but it does not provide any life cycle callbacks) and WidgetBinding(The glue between the widgets layer and the Flutter engine)?=>
+11.How would you access StatefulWidget properties from its State?==>
+12.How to re-initialize parent widget from child widget? Explain several ways?=>
+Ans:-( Pass a function to child and return click event call to parent, and parent will update the color of itself and child.)
+
+13.What would happen if I converted a stateless widget to Stateful Widget? Is there any performance issue?=>
+or(How do I make my stateless widget stateful?
+Ans:-To do so, just select the stateless or stateful widget and press Alt+Enter (for both Mac and Windows).
+ A pop-up menu will appear.
+ Choose the Convert to option to convert the widget from stateful to stateless or vice versa.)
+
+14.What is a Spacer widget?==>
+15.How to show/hide widgets?=>
+16.What is the importance of a TextEditingController?=>(A TextEditingController can also be used to provide an initial value for a text field.)
+17.What are the ways to get data from called Widget?=>(using  TextEditingController)
+18.Why ListView inside Column not works?=>(— Reason for error: Column expands to the maximum size in main axis direction (vertical axis), and so does the ListView)
+19.Differentiate between Listview and Listview.Builder?=>(ListView. builder creates a scrollable, linear array of widgets)
+20.How to scroll to a position in Flutter ListView?=>( Using Scrollable.ensureVisible(widgetKey.currentContext) does scroll the widgets)
+21.How can you update a ListView dynamically?
+Ans:-List<String> litems = ["1","2","Third","4"];
+body: new ListView.builder
+  (
+    itemCount: litems.length,
+    itemBuilder: (BuildContext ctxt, int index) {
+     return new Text(litems[index]);
+    }
+  )
+22.When to use ShrinkWrap the property?=>(shrinkWrap property for determining the size of scrollDirection.)
+23.Why do we use a Reverse property in a Listview?//
+24.What is SliverList and how to use it?=.(SliverList is a sliver that places the children in a linear array or one-dimensional array.)
+25.How to draw Text over Image?=>(using the stack=>(https://www.kindacode.com/article/flutter-how-to-place-text-over-an-image/))
+26.When can you use double.INFINITY?=>
+27.When to use a mainAxisSize? (MainAxisSize on your Column or Row, they will determine the size of the Column or Row)and diff between MainAxisSize.min andMainAxisSize.max=>
+28.How to assign min-height to the widget?=>
+29.How to align two items on extremes - one on the left and one on the right?=>(https://flutteragency.com/align-two-widgets-on-extremes-in-flutter/)
+30.Can we use Color and Decoration property simultaneously in the Container?=>(no)
+31.How is an Inherited Widget different from a Provider?=>
+32.What is an InheritedWidget?=>
+33.When to use Custom ScrollView?=>(it is a type of scrolling it is the help of our content scroll the diff directions)
+34.Difference between GestureDetector and InkWell? =>(gesturedetactor and inkwell mainy used for the any widget for clickable usin the onap, aonpressed, etc. )
+35.What is a vsync?=>
+Ans:- keeps the track of screen,
+ so that Flutter does not renders the animation when the screen is not being displayed.
+
+36.Difference between AnimationController and Animation?=>
+37.What is the purpose of ModalRoute.of()?=>
+Ans:-ModalRoute. of is used to build the route after it has been pushed in the navigation history.
+
+38.Difference between a Navigator.pushNamed and Navigator.pushReplacementNamed?=>
+Ans:-pushReplacementNamed -->> "enter animation"
+popAndPushNamed -->> "exit animation"
+
+39.What is the use of WidgetsBinding class?=>=>
+40.How to perform Hero Animation?=>(using the hero widget we are look the flying effect)
+41.Difference between Element Tree, Widget Tree and Render Tree.
+Ans:-Widget tree=stores widget configurations(eg text, style, textfield etc)
+     element tree=(reference to widget(eg like object)
+     render tree=(handles geometry of widget(eg size, offset etc)
+
+42.How to get responsive Flutter layouts?
+Ans:-There are two basic approaches to creating Flutter apps with responsive design:
+ Use the LayoutBuilder class.
+ From its builder property, you get a BoxConstraints object.
+
+43.Explain async, await , (then and Future) keyword?=>
+44.Use of yeild keyword?=>
+Ans:-yield adds a value to the output stream of the surrounding async* function.
+
+45.What's the difference between async(note) and async*(async* will always return a Stream through the yield function) in Dart?
+46.What are the ways to use Future Object?=>(using the . then function)
+47.How to group multiple Strem?
+Ans:-Instead of creating nested groups by using cascaded Collectors. groupingBy , you should group by a composite key:
+ Map<List<Object>, List<String>> map = strings. stream() .
+
+48.Why await is not blocking UI? 
+Ans:-Await calls are non-blocking. The way this works is, while Dart is single-threaded,
+ 
+49.Differentiate between Provider(=>=>)and Consumer(it is provide by the consumer)?=>
+50.Difference between whenCompleted() and then().=>
+Ans:-whenComplete will fire a function either when the Future completes with an error or not, instead .
+ then will fire a function after the Future completes without an error. 
+This is the asynchronous equivalent of a "finally" block.
+
+51.How to run code after Build() method execution?=>(https://www.youtube.com/watch?v=gGximQKP7YE)
+52.Difference between Const and final? Is there any performance issue If I select one of them over another?=>
+53.What is typedef in Dart?=>(https://www.youtube.com/watch?v=vbTmkMOKCao)
+54.How to handle null conditions=(null safety ko on karke)(null safety are used for safer and run faster) and use of the '??' (//)operator.=>
+link:-https://www.youtube.com/watch?v=qwnZEBoLdtM
+
+55.Differentiate between forEach(foreach is useful when iterating all of the items in a collection) and whereclause(A where clause is a condition which references columns of a data table where the query is sent.)?=>
+56.Why dialog inside FutureBuilder not working?//
+57.Use of extends , interface and mixin ?=>
+58.How to use Bloc architecture?=>( BloC architecture:
+ You need to connect your widget to the data layer and make it communicate with a service,API or a repository.)
+
+59.How to use MVVM architecture?=>
+Ans:-Model-View-ViewModel (MVVM) is a software design pattern that is structured to separate
+ program logic and user interface controls.
+
+60.Procedure to generate release app=>  .apk(for Android) and .ipa(for iOS)
+
+61.What is the advantage of Factory constructor?=>
+Ans:-A factory constructor is a constructor that can be used when you don't necessarily
+ want a constructor to create a new instance of your class.
+
+62.How to catch the Exceptions?// 
+
+63.Difference between getDocuments() vs snapshots() in Firebase?=>
+Ans:-getDocuments is a type of Future 
+     getDocuments()
+
+getUserById(String userId) async {
+    return await _firestore.collection("users").where("userId", isEqualTo: userId).getDocuments();
+}
+
+   snapshot is a type of stream
+   I am a little confused about the difference between these two. My understanding is that getDocuments is a type of Future and seems to get the entire documents according to the query. while snapshots, on the other hand, is a type of Stream and, correct me if I'm wrong, I think it represents the results of the query? I need a more specific explanation of this issue. I will include some code snippets as an example for more clarification
+
+getDocuments()
+
+getUserById(String userId) async {
+    return await _firestore.collection("users").where("userId", isEqualTo: userId).getDocuments();
+}
+
+snapshots()
+
+getUserById(String userId) async {
+    return await _firestore.collection("users").where("userId", isEqualTo: userId).snapshots
+
+64.Use of export keyword?=>
+Ans:-What is export in Dart?
+When you create a new library and use other libraries you want to make available automatically when using your package, then you use export : library mylib; export 'otherlib.dart'; 
+You can use the show keyword to import/export only some parts of a library (like a class or something).
+	
+				       .....Thank You.....
